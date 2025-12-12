@@ -8,7 +8,7 @@ import scala.concurrent.ExecutionContextExecutor
 import scala.io.StdIn
 
 object Main extends App {
-  implicit val system: ActorSystem = ActorSystem("mzba-game-server")
+  implicit val system: ActorSystem = ActorSystem()
   implicit val executionContext: ExecutionContextExecutor = system.dispatcher
 
   val websocketFlow: Flow[Message, Message, Any] = Flow[Message].map {

@@ -13,7 +13,7 @@
 Navigate to the project directory:
 
 ```bash
-cd mzba-game-server
+cd server
 ```
 
 ### Compile with sbt

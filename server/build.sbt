@@ -1,4 +1,4 @@
-name := "mzba-game-server"
+name := "server"
 
 version := "0.1.0-SNAPSHOT"
 
