@@ -1,2 +1,32 @@
-<app-nx-welcome></app-nx-welcome>
+<div class="websocket-container">
+  <h1>{{ title }}</h1>
+
+  <div class="status-bar">
+    <span [class.connected]="isConnected" [class.disconnected]="!isConnected">
+      {{ isConnected ? 'Connected' : 'Disconnected' }}
+    </span>
+    <button (click)="reconnect()" [disabled]="isConnected">Reconnect</button>
+    <button (click)="clearMessages()">Clear Messages</button>
+  </div>
+
+  <div class="messages-container">
+    <div *ngFor="let message of messages" class="message">
+      {{ message }}
+    </div>
+  </div>
+
+  <div class="input-container">
+    <input
+      type="text"
+      [(ngModel)]="inputMessage"
+      (keyup.enter)="sendMessage()"
+      [disabled]="!isConnected"
+      placeholder="Type a message (try 'hi')..."
+    />
+    <button (click)="sendMessage()" [disabled]="!isConnected || !inputMessage.trim()">
+      Send
+    </button>
+  </div>
+</div>
+
 <router-outlet></router-outlet>
