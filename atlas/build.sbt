@@ -1,4 +1,4 @@
-name := "server"
+name := "atlas"
 
 version := "0.1.0-SNAPSHOT"
 

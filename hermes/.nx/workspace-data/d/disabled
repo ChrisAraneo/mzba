@@ -1,0 +1,26 @@
+Error: write EPIPE
+
+Messages from the log:
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.266Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.268Z - Closed a connection. Number of open connections: 0
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.269Z - Established a connection. Number of open connections: 1
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.411Z - Time taken for 'Load Nx Plugin: c:\Users\komputer\Documents\mzba\client\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 407.80060000000003ms
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.414Z - Time taken for 'Load Nx Plugin: c:\Users\komputer\Documents\mzba\client\node_modules\nx\src\plugins\package-json' 411.2228ms
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.434Z - Time taken for 'loadDefaultNxPlugins' 433.159ms
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.658Z - Started listening on: \\.\pipe\nx\C:\Users\komputer\AppData\Local\Temp\54a235a0e13b98b3edda\d.sock
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.661Z - [WATCHER]: Subscribed to changes within: c:\Users\komputer\Documents\mzba\client (native)
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.661Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
+Fetching nx...
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.682Z - Closed a connection. Number of open connections: 0
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.682Z - [WATCHER]: Stopping the watcher for c:\Users\komputer\Documents\mzba\client (sources)
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.682Z - [WATCHER]: Stopping the watcher for c:\Users\komputer\Documents\mzba\client (outputs)
+[NX v22.2.3 Daemon Server] - 2025-12-12T20:34:11.683Z - Server stopped because: "this process is no longer the current daemon (native)"
+Time for 'plugin worker 4184 code loading' 6.793600000000001
+Time for 'plugin worker 23288 code loading' 6.846
+Time for 'plugin worker 35548 code loading' 7.156600000000001
+Time for 'plugin worker 10656 code loading' 6.837400000000002
+Time for 'plugin worker 14808 code loading' 6.864600000000003
+
+
+
+More information: c:\Users\komputer\Documents\mzba\client\.nx\workspace-data\d\daemon.log
